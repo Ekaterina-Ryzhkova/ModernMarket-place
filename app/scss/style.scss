@@ -1,0 +1,38 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 0px;
+    background-color:honeydew;
+}
+
+h1
+{
+    color:dimgrey;
+    font-size: 30px;
+}
+
+ol
+{
+    display: flex;
+    flex-direction: column;
+    transition: all .2s;
+    margin: 30px;
+}
+
+span
+{
+    color:indigo;
+}
