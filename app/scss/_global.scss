@@ -1,0 +1,39 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: $text;
+}
+
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
