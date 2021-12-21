@@ -542,3 +542,57 @@
         }
     }
 }
+
+.author
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &-box
+    {
+        max-width: 654px;
+        width: 100%;
+        min-height: 217px;
+        background-color: #8bc34a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-title
+        {
+        max-width: 259px;
+        font-size: 30px;
+        line-height: 36px;
+        color: #ffffff;
+        font-weight: 400;
+
+        span
+        {
+            font-weight: 700;
+        }
+        }
+
+        &-link
+        {
+            width: 226px;
+            height: 64px;
+            background-color: #fff;
+            text-align: center;
+            margin-left: 48px;
+            padding: 25px 43px ;
+            #author-box-link-box
+            {
+            font-size: 18px;
+            line-height: 36px;
+            color: $darkblue;
+            font-weight: 400;
+            }
+        }
+    }
+}
