@@ -596,3 +596,38 @@
         }
     }
 }
+
+.tutorial
+{
+    padding: 66px 0px 120px;
+    background-color: #fff;
+
+    .tutorial-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .tutorial-item
+        {
+            width: 370px;
+            height: 371px;
+            background-color: #f8f8f8;
+            margin: 0 15px;
+
+            &-title
+            {
+                color: $darkblue;
+                font-weight: 700;
+                text-align: center;
+                padding: 20px 0px;
+            }
+
+            &-image
+            {
+                width: 370px;
+                height: 270px;
+            }
+        }
+    }
+    
+}
